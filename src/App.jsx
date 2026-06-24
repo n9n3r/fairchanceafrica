@@ -19,8 +19,8 @@ function App() {
         <Problem />
         <Principles />
         <HowItWorks />
-        <Competitions />
-        <Revenue />
+        {/* <Competitions /> */}
+        {/* <Revenue /> */}
         <Expansion />
         <FAQ />
         <CTA />
