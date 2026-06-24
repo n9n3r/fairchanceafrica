@@ -24,11 +24,13 @@ export default function Principles() {
           </div>
 
           <div className="bg-ink p-7 flex flex-col gap-5">
-    
+            <div className="flex items-center gap-2 font-mono text-xs text-paper/60">
+              <span className="text-marigold">●</span>
+            </div>
             <div>
               <h3 className="font-display text-xl font-semibold mb-2">Transparency</h3>
               <p className="text-sm text-paper/70 leading-relaxed">
-                Total entries, entries remaining, closing date, draw date, and
+                Closing date, draw date, and
                 the winning ticket are all public — for every competition.
               </p>
             </div>
@@ -48,7 +50,7 @@ export default function Principles() {
           </div>
 
           <div className="bg-ink p-7 flex flex-col gap-5">
-            <div className="font-mono text-xs text-paper/60">₦1,000 / entry</div>
+            <div className="font-mono text-xs text-paper/60"></div>
             <div>
               <h3 className="font-display text-xl font-semibold mb-2">Accessibility</h3>
               <p className="text-sm text-paper/70 leading-relaxed">
