@@ -25,7 +25,7 @@ export default function Principles() {
 
           <div className="bg-ink p-7 flex flex-col gap-5">
             <div className="flex items-center gap-2 font-mono text-xs text-paper/60">
-              <span className="text-marigold">●</span>
+              <TicketMeter filled={5} size="sm" />
             </div>
             <div>
               <h3 className="font-display text-xl font-semibold mb-2">Transparency</h3>
@@ -50,7 +50,9 @@ export default function Principles() {
           </div>
 
           <div className="bg-ink p-7 flex flex-col gap-5">
-            <div className="font-mono text-xs text-paper/60"></div>
+            <div className="font-mono text-xs text-paper/60">
+              <TicketMeter filled={5} size="sm" />
+            </div>
             <div>
               <h3 className="font-display text-xl font-semibold mb-2">Accessibility</h3>
               <p className="text-sm text-paper/70 leading-relaxed">
