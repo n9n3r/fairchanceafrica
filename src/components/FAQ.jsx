@@ -7,7 +7,7 @@ const FAQS = [
   },
   {
     q: "How do I know the draw is real?",
-    a: "Every competition publishes total entries, entries remaining, the closing date, the draw date, the winning ticket number, and the verification details — and that record stays public for auditing.",
+    a: "Every Lot publishes the closing date, the draw date, the winning ticket number on the draw date, and that record stays public for auditing.",
   },
   {
     q: "How are accounts verified?",
@@ -17,10 +17,10 @@ const FAQS = [
     q: "What happens to my entry once I buy it?",
     a: "It's assigned a unique ticket number immediately, and that allocation is recorded permanently — visible to you at any time.",
   },
-  {
-    q: "Can businesses list their own prizes?",
-    a: "Yes. Under merchant competitions, FairChance handles marketing, payments, entry management, and winner selection, and earns a platform commission.",
-  },
+  // {
+  //   q: "Can businesses list their own prizes?",
+  //   a: "Yes. Under merchant competitions, FairChance handles marketing, payments, entry management, and winner selection, and earns a platform commission.",
+  // },
 ];
 
 export default function FAQ() {
