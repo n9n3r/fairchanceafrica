@@ -3,7 +3,7 @@ import TicketMeter from "./TicketMeter";
 const STEPS = [
   {
     n: "01",
-    title: "A competition is listed",
+    title: "A LOTS is listed",
     body: "Each listing shows the prize, entry fee, the five-entry cap, and the closing date — upfront, before anyone pays.",
   },
   {
@@ -14,7 +14,7 @@ const STEPS = [
   {
     n: "03",
     title: "Entries are purchased — up to five",
-    body: "Buy 1 to 5 entries. Once you hit five, that's it for this competition, no matter your budget.",
+    body: "Buy 1 to 5 entries. Once you hit five, that's it for this LOTS, no matter your budget.",
   },
   {
     n: "04",
@@ -24,7 +24,7 @@ const STEPS = [
   {
     n: "05",
     title: "A transparent draw is run",
-    body: "When the competition closes, the winning ticket is chosen by a secure, verifiable random process.",
+    body: "When the LOTS closes, the winning ticket is chosen by a secure, verifiable random process.",
   },
   {
     n: "06",
@@ -87,7 +87,7 @@ export default function HowItWorks() {
                 <TicketMeter filled={5} highlightLast size="md" />
                 <p className="text-sm text-ink-soft mt-3 leading-relaxed">
                   Sarah is at the cap. She can't buy any more entries in this
-                  competition — no matter how much she's willing to spend.
+                  LOTS — no matter how much she's willing to spend.
                 </p>
               </div>
             </div>
