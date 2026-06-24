@@ -21,7 +21,7 @@ export default function CTA() {
           </h2>
           <p className="text-paper/70 leading-relaxed mb-8 max-w-lg">
             Verify your details, browse what's open, and buy up to five
-            entries in any competition — the same limit as everyone else who
+            entries in any Lot — the same limit as everyone else who
             joins.
           </p>
 
